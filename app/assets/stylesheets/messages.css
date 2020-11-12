@@ -1,0 +1,140 @@
+.wrapper{
+  display:flex;
+}
+.side-bar{
+  background-color:#253141;
+  width:300px;
+  height:100vh;
+}
+
+.side-top{
+  height:100px;
+  background-color:#253141;
+  padding: 0 20px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+.name a{
+  font-size:16px;
+  color:#fafafa;
+  text-decoration:none;
+}
+
+.room-new a{
+  font-size:10px;
+  color:deepskyblue;
+  padding: 14px;
+  text-decoration:none;
+  border:1px solid lightblue;
+}
+
+.side-bottom{
+  height: calc(100vh - 100px);
+  background-color:#2f3e51;
+  padding: 0 20px;
+  overflow:scroll;
+}
+.room{
+  padding: 20px 0 40px;
+}
+.room-name a{
+  color:white;
+  text-decoration:none;
+}
+
+.main-bar{
+  background-color:#ffffff;
+  width: calc(100% - 300px);
+  height:100vh;
+}
+
+.main-top{
+  height:100px;
+  background-color:#ffffff;
+  padding: 0 40px 46px 40px;
+  display:flex;
+  justify-content:space-between;
+}
+.room-overview h1{
+  font-size:24px;
+  color:#333;
+  margin-top:36px;
+}
+.room-delete{
+  margin-top:40px;
+}
+.room-delete a{
+text-decoration:none;
+color:darkred;
+padding:20px;
+border:1px solid darkred;
+}
+.main-middle{
+  height: calc(100vh - 190px);
+  background-color:#fafafa;
+  padding: 0 40px;
+  overflow:scroll;
+}
+.user-messages{
+padding-top:10px;
+}
+.messages{
+display:flex;
+}
+.message-name{
+  font-size:16px;
+  color:#434a54;
+  margin-right:10px;
+}
+.message-time{
+  font-size:12px;
+  color:#999;
+}
+.message-coments{
+  margin-top:10px;
+}
+.message-coment{
+margin-bottom:40px;
+font-size:14px;
+color:#434a54;
+}
+.main-bottom{
+  height:90px;
+  background-color:#dddddd;
+  padding: 20px 40px;
+  display:flex;
+}
+.form{
+  display: flex;
+  width:100%;
+  background-color:white;
+}
+.form-text{
+  border:none;
+  height:50px;
+  width:100%;
+  padding-left:10px;
+}
+.form-btn{
+  margin-left:15px;
+  border:none;
+  padding:0 20px;
+  color:white;
+  height:50px;
+  font-size:16px;
+  background-color:#38aef0
+}
+.form-image {
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
